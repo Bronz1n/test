@@ -1,0 +1,8 @@
+A = list(map(int, input().split()))
+
+count = 0
+for x in A:
+    if x % 5 == 0:
+        count += 1
+
+print(count)
